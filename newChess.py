@@ -40,7 +40,7 @@ class King:
     queenSideCastleAvailable = True
     kingSideCastleAvailable = True
     inCheck = False
-    
+
     def __init__(self, color, x_pos, y_pos, board):
         self.color = color
         self.x_pos = x_pos
